@@ -10,6 +10,5 @@ class Graduate_Student(Student):
         self.degree_program = degree_program
 
     def print_student_data(self):
-        super().print_student_data()
-        print(f"\tDegree Program: {self.degree_program}")
+        print(f"{self.first_name} {self.last_name}, {self.email}, Program: {self.degree_program}")
     
